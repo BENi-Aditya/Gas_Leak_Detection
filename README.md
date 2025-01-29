@@ -150,10 +150,6 @@ The web dashboard provides:
 Got ideas to improve this project? Feel free to fork, modify, and create pull requests!
 
 ---
-
-## 📜 License
-This project is open-source under the **MIT License**.
-
 ---
 
 ## 🌟 Acknowledgments
