@@ -36,7 +36,7 @@ This project is a **Gas Leakage Detection and Alert System** using **Raspberry P
 ![Raspberry Pi Circuit](Circuit%20Diagrams/Save%202%20from%20WhatsApp.png)
 
 ### Arduino Uno Circuit (Alternative Setup):  
-![Arduino Circuit](Circuit%20Diagrams/Spectacular%20Trug%20Jofo.pdf)
+![Arduino Circuit](Circuit%20Diagrams/Spectacular%20Trug%20Jofo.png)
 
 ---
 
