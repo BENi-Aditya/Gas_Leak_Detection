@@ -1,4 +1,4 @@
-# 🚨 Gas Leakage Detection & Alert System
+# 🚨 Gas Leakage Detection & Alert System using Raspberry Pi 
 
 ## 📌 Overview
 This project is a **Gas Leakage Detection and Alert System** using **Raspberry Pi**, **MQ2 & MQ7 sensors**, **16x2 I2C LCD**, and a **buzzer**. It detects dangerous gas leaks and provides real-time alerts via:
@@ -9,7 +9,7 @@ This project is a **Gas Leakage Detection and Alert System** using **Raspberry P
 - **Web Dashboard** to monitor real-time sensor readings
 
 ## 🎯 Features
-✅ **Real-time gas leakage detection** (MQ2 & MQ7 sensors)  
+✅ **Real-time gas leakage detection** (2x MQ2 & MQ7 sensors for redundancy)  
 ✅ **LCD Display (16x2 I2C)** for live status updates  
 ✅ **Buzzer alerts** when gas concentration is unsafe  
 ✅ **Telegram notifications** for remote alerts  
@@ -21,7 +21,7 @@ This project is a **Gas Leakage Detection and Alert System** using **Raspberry P
 | Component           | Quantity | Description |
 |--------------------|----------|------------|
 | Raspberry Pi      | 1 | Main controller (tested on Raspberry Pi 3/4) |
-| MQ2 Gas Sensor   | 1 | Detects LPG, CO, smoke, etc. |
+| MQ2 Gas Sensor   | 2 | Detects LPG, CO, smoke, etc. (redundancy) |
 | MQ7 Gas Sensor   | 1 | Detects Carbon Monoxide (CO) |
 | 16x2 I2C LCD     | 1 | Displays gas status & readings |
 | Buzzer           | 1 | Sounds alarm for gas leaks |
@@ -32,7 +32,11 @@ This project is a **Gas Leakage Detection and Alert System** using **Raspberry P
 ---
 
 ## 🔧 Circuit Diagram
-*(Attach a Fritzing circuit diagram here for better clarity.)*
+### Raspberry Pi Circuit:  
+![Raspberry Pi Circuit](Circuit%20Diagrams/Save%202%20from%20WhatsApp.png)
+
+### Arduino Uno Circuit (Alternative Setup):  
+![Arduino Circuit](Circuit%20Diagrams/Spectacular%20Trug%20Jofo.pdf)
 
 ---
 
@@ -80,8 +84,8 @@ The LCD’s address should appear (e.g., `0x27`). Update the code if needed.
 ### 5️⃣ **Run the Application**
 Clone this repository:
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/gas-leak-detector.git
-cd gas-leak-detector
+git clone https://github.com/BENi-Aditya/Gas_Leak_Detection.git
+cd Gas_Leak_Detection
 ```
 Run the script:
 ```bash
@@ -136,6 +140,6 @@ Special thanks to **Open Source Contributors** and the **Raspberry Pi Community*
 ---
 
 ### 📞 Contact
-📧 **Email:** your.email@example.com  
-🐦 **Twitter:** [@yourhandle](https://twitter.com/yourhandle)  
-📷 **Instagram:** [@yourhandle](https://instagram.com/yourhandle)
+📧 **Email:** aditya.tripathi.beni@gmail.com  
+🐦 **GitHub:** [BENi-Aditya](https://github.com/BENi-Aditya)  
+📷 **Instagram:** [@aditya.beni_](https://instagram.com/aditya.beni_)
