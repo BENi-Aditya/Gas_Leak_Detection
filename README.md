@@ -1,0 +1,2 @@
+# Gas_Leak_Detection_with_Rpi
+ This project is a real-time gas leak detection system that utilizes MQ2 and MQ7 gas sensors to monitor air quality and detect leaks. The system integrates with a 16x2 I2C LCD display for real-time status updates and a buzzer alarm to alert users when gas concentrations exceed safe levels. Additionally, it features Telegram bot integration to send immediate notifications in case of a leak.
