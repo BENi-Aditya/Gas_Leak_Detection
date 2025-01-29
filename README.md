@@ -15,6 +15,28 @@ This project is a **Gas Leakage Detection and Alert System** using **Raspberry P
 ✅ **Telegram notifications** for remote alerts  
 ✅ **Web Dashboard** to monitor sensor values & update thresholds  
 
+
+
+## 📸 Product Showcase
+
+Take a look at our **Gas Leakage Detection & Alert System** in action!  
+
+### 🔹 Device Images
+<p align="center">
+  <img src="images n vids/1.JPG" alt="Gas Leak Detector Front View" width="45%"/>
+  <img src="images n vids/2.JPG" alt="Gas Leak Detector Side View" width="45%"/>
+</p>
+
+### 🎥 Demonstration Video
+<p align="center">
+  <video width="70%" controls>
+    <source src="images n vids/3.MOV" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+
+
 ---
 
 ## 🛠️ Hardware Components
